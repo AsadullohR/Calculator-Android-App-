@@ -167,10 +167,10 @@ public class MainActivity extends AppCompatActivity {
                         operand1 /= value;
                     }
                     break;
-                case "*":
+                case "x":
                     operand1 *= value;
                     break;
-                case "%":
+                case "Mod":
                     operand1 %= value;
                     break;
 
